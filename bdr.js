@@ -637,7 +637,7 @@ function getLocation(){
     jQuery.support.cors = true;
     $.ajax({
         dataType: "json",
-        url: "http://freegeoip.net/json/",
+        url: "https://freegeoip.net/json/",
         success: getWeather
     });
 }
