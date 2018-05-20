@@ -1,0 +1,30 @@
+{
+"coord":{"lon":24.94,"lat":60.17},
+"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],
+"base":"cmc stations",
+"main":{"temp":5.49,"pressure":1019,"humidity":100,"temp_min":5.49,"temp_max":5.49,"sea_level":1020.69,"grnd_level":1019},
+"wind":{"speed":11.41,"deg":210.502},
+"rain":{"3h":0.975},
+"clouds":{"all":92},
+"dt":1448555232,
+"sys":{"message":0.0053,"country":"FI","sunrise":1448520381,"sunset":1448544502},
+"id":658225,
+"name":"Helsinki",
+"cod":200
+}
+
+
+
+ {
+ "ip":"188.67.44.63",
+ "country_code":"FI",
+ "country_name":"Finland",
+ "region_code":"",
+ "region_name":"",
+ "city":"",
+ "zip_code":"",
+ "time_zone":"Europe/Helsinki",
+ "latitude":60.1708,
+ "longitude":24.9375,
+ "metro_code":0
+ }

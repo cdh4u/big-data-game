@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Big Data Racer</title>
+		<script src="js/jquery-2.1.1.min.js"></script>
+        <link href="css/bdr.css" rel="stylesheet" />
+	</head>
+	<body>    
+        <div id="canvasesdiv" style="position:relative;">
+            <canvas id="c_track" width="1000" height="700" style="z-index:1;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_water" width="1000" height="700" style="z-index:2;background-color: transparent;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_car" width="1000" height="700" style="z-index:3;background-color: transparent;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_cloud" width="1000" height="700" style="z-index:4;background-color: transparent;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_rain" width="1000" height="700" style="z-index:5;background-color: transparent;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_night" width="1000" height="700" style="z-index:6;position:absolute;left:0px;top:0px"></canvas>
+            <canvas id="c_score" width="1000" height="700" style="z-index:7;background-color: transparent;position:absolute;left:0px;top:0px"></canvas>
+            <audio id="soundExplosion" src="audio/Explosion_Ultra_Bass-Mark_DiAngelo-1810420658.mp3" style="display: none;"></audio>
+            <audio controls loop id="soundMusic" src="audio/474360_Shoppingcart-Racers.mp3" style="display: none;"></audio>
+        </div>		
+		<script src="bdr_nrain.js"></script>
+	</body>
+</html>
