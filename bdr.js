@@ -653,7 +653,7 @@ function getWeather(data){
     bd.lat = data.latitude?data.latitude:0;
     bd.lon = data.longitude?data.longitude:0;
     //Get weather information using AJAX
-    var weather_url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + bd.lat + '&lon=' + bd.lon + '&units=metric&APPID=25270c8ee8ecf2a3abea1e0ada20e649';
+    var weather_url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + bd.lat + '&lon=' + bd.lon + '&units=metric&APPID=25270c8ee8ecf2a3abea1e0ada20e649';
     console.log("Weather URL: " + weather_url);
     jQuery.support.cors = true;
     $.ajax({
