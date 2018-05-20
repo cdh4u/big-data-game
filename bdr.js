@@ -895,7 +895,7 @@ function drawScore(){
     }
     if(bd.icon){
         //src could be moved to object
-        image_icon.src = "http://openweathermap.org/img/w/" + bd.icon + ".png";
+        image_icon.src = "https://openweathermap.org/img/w/" + bd.icon + ".png";
         ctx_score.drawImage(image_icon,850,55,100,100);
     }
 
